@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="index.html">Principal</a>
+            <a href="pagina1.html">Página1</a>
+            <a href="pagina2.html">Página2</a>
+            <a href="pagina3.html" class="ativo">Cadastrar</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Vamos Cadastrar Sua Conta!</h1>
+        <form action="pagina2.html" method="post">
+            <label for="nome">Nome: </label><input type="text" name="nome" id="nome"> <br>
+            <label for="email">Email: </label> <input type="email" name="email" id="email"> <br>
+            <label for="senha">Senha: </label><input type="password" name="senha" id="senha"> <br>
+            <label for="confirmaSenha">Confirme sua senha: </label><input type="password" name="confirmaSenha" id="confirmaSenha"> <br>
+            <br>
+            <input type="reset" name="limpar" id="limpar"><input type="submit" name="enviar" id="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para revisão de conceitos!</p>
+    </footer>
+</body>
+</html>
